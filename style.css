@@ -61,3 +61,39 @@ p{
     margin-right: auto;
     width: 50%
 }
+.site-container{
+    margin: 2rem auto;
+    max-width: calc(100% - 80px);
+}
+.article-container{
+    display: flex;
+
+}
+.article-image{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.article-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px;
+}
+.article-card{
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 1.5%;
+}
+.article-content{
+    padding: 2rem;
+}
+.article-content .card-title{
+    margin: 1rem 0;
+}
+.article-content .card-exprt{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 0;
+}
